@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-16T00:14:01 EET" name="Suite" finished-at="2022-04-16T00:15:39 EET" duration-ms="97158">
+    <groups>
+    </groups>
+    <test started-at="2022-04-16T00:14:01 EET" name="Login" finished-at="2022-04-16T00:14:59 EET" duration-ms="57116">
+      <class name="LoginTCs.LoginInvalidEmailValidPass">
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String)[pri:0, instance:LoginTCs.LoginInvalidEmailValidPass@4659191b]" started-at="2022-04-16T00:14:23 EET" name="beforeMethodMethod" finished-at="2022-04-16T00:14:25 EET" duration-ms="2069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="Login_invalidEmail_validPass(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LoginTCs.LoginInvalidEmailValidPass@4659191b]" started-at="2022-04-16T00:14:25 EET" name="Login_invalidEmail_validPass" data-provider="gdata" finished-at="2022-04-16T00:14:26 EET" duration-ms="1690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login_invalidEmail_validPass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mostafa_elbehairy@tfbnw.net]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[instabug1042020]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_invalidEmail_validPass -->
+        <test-method is-config="true" signature="afterMethodMethod()[pri:0, instance:LoginTCs.LoginInvalidEmailValidPass@4659191b]" started-at="2022-04-16T00:14:26 EET" name="afterMethodMethod" finished-at="2022-04-16T00:14:31 EET" duration-ms="4141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+      </class> <!-- LoginTCs.LoginInvalidEmailValidPass -->
+      <class name="LoginTCs.LoginValidEmailValidPass">
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String)[pri:0, instance:LoginTCs.LoginValidEmailValidPass@58d75e99]" started-at="2022-04-16T00:14:02 EET" name="beforeMethodMethod" finished-at="2022-04-16T00:14:05 EET" duration-ms="2640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="Login_validEmail_validPass(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LoginTCs.LoginValidEmailValidPass@58d75e99]" started-at="2022-04-16T00:14:05 EET" name="Login_validEmail_validPass" data-provider="gdata" finished-at="2022-04-16T00:14:09 EET" duration-ms="4413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login_validEmail_validPass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mostafa_shntpiv_elbehairy@tfbnw.net]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[instabug1042020]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_validEmail_validPass -->
+        <test-method is-config="true" signature="afterMethodMethod()[pri:0, instance:LoginTCs.LoginValidEmailValidPass@58d75e99]" started-at="2022-04-16T00:14:09 EET" name="afterMethodMethod" finished-at="2022-04-16T00:14:13 EET" duration-ms="4168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+      </class> <!-- LoginTCs.LoginValidEmailValidPass -->
+      <class name="LoginTCs.LoginBlankEmailBlankPass">
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String)[pri:0, instance:LoginTCs.LoginBlankEmailBlankPass@4b0d79fc]" started-at="2022-04-16T00:14:34 EET" name="beforeMethodMethod" finished-at="2022-04-16T00:14:36 EET" duration-ms="2091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="Login_blankEmail_blankPass(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LoginTCs.LoginBlankEmailBlankPass@4b0d79fc]" started-at="2022-04-16T00:14:36 EET" name="Login_blankEmail_blankPass" data-provider="gdata" finished-at="2022-04-16T00:14:37 EET" duration-ms="659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login_blankEmail_blankPass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_blankEmail_blankPass -->
+        <test-method is-config="true" signature="afterMethodMethod()[pri:0, instance:LoginTCs.LoginBlankEmailBlankPass@4b0d79fc]" started-at="2022-04-16T00:14:37 EET" name="afterMethodMethod" finished-at="2022-04-16T00:14:41 EET" duration-ms="4182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+      </class> <!-- LoginTCs.LoginBlankEmailBlankPass -->
+      <class name="LoginTCs.LoginBlankEmailValidPass">
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String)[pri:0, instance:LoginTCs.LoginBlankEmailValidPass@428640fa]" started-at="2022-04-16T00:14:51 EET" name="beforeMethodMethod" finished-at="2022-04-16T00:14:53 EET" duration-ms="2077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="Login_blankEmail_validPass(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LoginTCs.LoginBlankEmailValidPass@428640fa]" started-at="2022-04-16T00:14:53 EET" name="Login_blankEmail_validPass" data-provider="gdata" finished-at="2022-04-16T00:14:54 EET" duration-ms="1653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login_blankEmail_validPass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[instabug1042020]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_blankEmail_validPass -->
+        <test-method is-config="true" signature="afterMethodMethod()[pri:0, instance:LoginTCs.LoginBlankEmailValidPass@428640fa]" started-at="2022-04-16T00:14:54 EET" name="afterMethodMethod" finished-at="2022-04-16T00:14:59 EET" duration-ms="4122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+      </class> <!-- LoginTCs.LoginBlankEmailValidPass -->
+      <class name="LoginTCs.LoginInvalidEmailInvalidPass">
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String)[pri:0, instance:LoginTCs.LoginInvalidEmailInvalidPass@55634720]" started-at="2022-04-16T00:14:31 EET" name="beforeMethodMethod" finished-at="2022-04-16T00:14:33 EET" duration-ms="2072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="Login_invalidEmail_invalidPass(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LoginTCs.LoginInvalidEmailInvalidPass@55634720]" started-at="2022-04-16T00:14:33 EET" name="Login_invalidEmail_invalidPass" data-provider="gdata" finished-at="2022-04-16T00:14:34 EET" duration-ms="1511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login_invalidEmail_invalidPass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mostafairy@tfbnw.net]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8k5sdg]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_invalidEmail_invalidPass -->
+        <test-method is-config="true" signature="afterMethodMethod()[pri:0, instance:LoginTCs.LoginInvalidEmailInvalidPass@55634720]" started-at="2022-04-16T00:14:34 EET" name="afterMethodMethod" finished-at="2022-04-16T00:14:34 EET" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+      </class> <!-- LoginTCs.LoginInvalidEmailInvalidPass -->
+      <class name="LoginTCs.LoginValidEmailInvalidPass">
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String)[pri:0, instance:LoginTCs.LoginValidEmailInvalidPass@2dc54ad4]" started-at="2022-04-16T00:14:13 EET" name="beforeMethodMethod" finished-at="2022-04-16T00:14:15 EET" duration-ms="2057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="Login_validEmail_invalidPass(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LoginTCs.LoginValidEmailInvalidPass@2dc54ad4]" started-at="2022-04-16T00:14:15 EET" name="Login_validEmail_invalidPass" data-provider="gdata" finished-at="2022-04-16T00:14:18 EET" duration-ms="3297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login_validEmail_invalidPass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mostafa_shntpiv_elbehairy@tfbnw.net]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[yb09139]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_validEmail_invalidPass -->
+        <test-method is-config="true" signature="afterMethodMethod()[pri:0, instance:LoginTCs.LoginValidEmailInvalidPass@2dc54ad4]" started-at="2022-04-16T00:14:18 EET" name="afterMethodMethod" finished-at="2022-04-16T00:14:23 EET" duration-ms="4176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+      </class> <!-- LoginTCs.LoginValidEmailInvalidPass -->
+      <class name="LoginTCs.LoginVaildEmailBlankPass">
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String)[pri:0, instance:LoginTCs.LoginVaildEmailBlankPass@4c1909a3]" started-at="2022-04-16T00:14:41 EET" name="beforeMethodMethod" finished-at="2022-04-16T00:14:44 EET" duration-ms="2279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="Login_VaildEmail_blankPass(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LoginTCs.LoginVaildEmailBlankPass@4c1909a3]" started-at="2022-04-16T00:14:44 EET" name="Login_VaildEmail_blankPass" data-provider="gdata" finished-at="2022-04-16T00:14:47 EET" duration-ms="2995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login_VaildEmail_blankPass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mostafa_shntpiv_elbehairy@tfbnw.net]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_VaildEmail_blankPass -->
+        <test-method is-config="true" signature="afterMethodMethod()[pri:0, instance:LoginTCs.LoginVaildEmailBlankPass@4c1909a3]" started-at="2022-04-16T00:14:47 EET" name="afterMethodMethod" finished-at="2022-04-16T00:14:51 EET" duration-ms="4128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+      </class> <!-- LoginTCs.LoginVaildEmailBlankPass -->
+    </test> <!-- Login -->
+    <test started-at="2022-04-16T00:14:59 EET" name="Registration" finished-at="2022-04-16T00:15:39 EET" duration-ms="39250">
+      <class name="RegistrationTCs.RegistrationUserAgeMoreThanAYear">
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String)[pri:0, instance:RegistrationTCs.RegistrationUserAgeMoreThanAYear@3646a422]" started-at="2022-04-16T00:15:31 EET" name="beforeMethodMethod" finished-at="2022-04-16T00:15:33 EET" duration-ms="2098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="Registration_UserAgeMoreThanOneYear(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:RegistrationTCs.RegistrationUserAgeMoreThanAYear@3646a422]" started-at="2022-04-16T00:15:33 EET" name="Registration_UserAgeMoreThanOneYear" data-provider="gdata" finished-at="2022-04-16T00:15:34 EET" duration-ms="1495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registration_UserAgeMoreThanOneYear]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mostafa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Elbehairy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mostafa_elbehairy@tfbnw.net]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mostafa_elbehairy@tfbnw.net]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[instabug1042020]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_UserAgeMoreThanOneYear -->
+        <test-method is-config="true" signature="afterMethodMethod()[pri:0, instance:RegistrationTCs.RegistrationUserAgeMoreThanAYear@3646a422]" started-at="2022-04-16T00:15:34 EET" name="afterMethodMethod" finished-at="2022-04-16T00:15:39 EET" duration-ms="4177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+      </class> <!-- RegistrationTCs.RegistrationUserAgeMoreThanAYear -->
+      <class name="RegistrationTCs.RegistrationConfirmationEmail">
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String)[pri:0, instance:RegistrationTCs.RegistrationConfirmationEmail@2892d68]" started-at="2022-04-16T00:15:15 EET" name="beforeMethodMethod" finished-at="2022-04-16T00:15:17 EET" duration-ms="2165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="Registration_EnsureComfirmEmailMatchEmail(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:RegistrationTCs.RegistrationConfirmationEmail@2892d68]" started-at="2022-04-16T00:15:17 EET" name="Registration_EnsureComfirmEmailMatchEmail" data-provider="gdata" finished-at="2022-04-16T00:15:19 EET" duration-ms="1818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registration_EnsureComfirmEmailMatchEmail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mostafa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Elbehairy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mostafa_elbehairy@tfbnw.net]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mosafaelbehairy95@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[instabug1042020]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_EnsureComfirmEmailMatchEmail -->
+        <test-method is-config="true" signature="afterMethodMethod()[pri:0, instance:RegistrationTCs.RegistrationConfirmationEmail@2892d68]" started-at="2022-04-16T00:15:19 EET" name="afterMethodMethod" finished-at="2022-04-16T00:15:23 EET" duration-ms="4150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+      </class> <!-- RegistrationTCs.RegistrationConfirmationEmail -->
+      <class name="RegistrationTCs.CorrectEmailSyntax">
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String)[pri:0, instance:RegistrationTCs.CorrectEmailSyntax@d86a6f]" started-at="2022-04-16T00:15:07 EET" name="beforeMethodMethod" finished-at="2022-04-16T00:15:09 EET" duration-ms="2110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="Registration_ValidEmailSyntax(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:RegistrationTCs.CorrectEmailSyntax@d86a6f]" started-at="2022-04-16T00:15:09 EET" name="Registration_ValidEmailSyntax" data-provider="gdata" finished-at="2022-04-16T00:15:11 EET" duration-ms="1889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registration_ValidEmailSyntax]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mostafa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Elbehairy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mostafa_elbehairy@net]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[instabug1042020]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_ValidEmailSyntax -->
+        <test-method is-config="true" signature="afterMethodMethod()[pri:0, instance:RegistrationTCs.CorrectEmailSyntax@d86a6f]" started-at="2022-04-16T00:15:11 EET" name="afterMethodMethod" finished-at="2022-04-16T00:15:15 EET" duration-ms="4182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+      </class> <!-- RegistrationTCs.CorrectEmailSyntax -->
+      <class name="RegistrationTCs.RegisterWithoutLastName">
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String)[pri:0, instance:RegistrationTCs.RegisterWithoutLastName@5ab956d7]" started-at="2022-04-16T00:15:23 EET" name="beforeMethodMethod" finished-at="2022-04-16T00:15:25 EET" duration-ms="2025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="Registration_MakeSureSurName_Mandatory(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:RegistrationTCs.RegisterWithoutLastName@5ab956d7]" started-at="2022-04-16T00:15:25 EET" name="Registration_MakeSureSurName_Mandatory" data-provider="gdata" finished-at="2022-04-16T00:15:27 EET" duration-ms="1288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registration_MakeSureSurName_Mandatory]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mostafa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mostafa_elbehairy@tfbnw.net]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mostafa_elbehairy@tfbnw.net]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[instabug1042020]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_MakeSureSurName_Mandatory -->
+        <test-method is-config="true" signature="afterMethodMethod()[pri:0, instance:RegistrationTCs.RegisterWithoutLastName@5ab956d7]" started-at="2022-04-16T00:15:27 EET" name="afterMethodMethod" finished-at="2022-04-16T00:15:31 EET" duration-ms="4155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+      </class> <!-- RegistrationTCs.RegisterWithoutLastName -->
+      <class name="RegistrationTCs.RegisterWithoutFirstName">
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String)[pri:0, instance:RegistrationTCs.RegisterWithoutFirstName@4145bad8]" started-at="2022-04-16T00:14:59 EET" name="beforeMethodMethod" finished-at="2022-04-16T00:15:02 EET" duration-ms="2166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="Registration_MakeSureFirstName_Mandatory(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:RegistrationTCs.RegisterWithoutFirstName@4145bad8]" started-at="2022-04-16T00:15:02 EET" name="Registration_MakeSureFirstName_Mandatory" data-provider="gdata" finished-at="2022-04-16T00:15:03 EET" duration-ms="1334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registration_MakeSureFirstName_Mandatory]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Elbehairy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mostafa_elbehairy@tfbnw.net]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mostafa_elbehairy@tfbnw.net]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[instabug1042020]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_MakeSureFirstName_Mandatory -->
+        <test-method is-config="true" signature="afterMethodMethod()[pri:0, instance:RegistrationTCs.RegisterWithoutFirstName@4145bad8]" started-at="2022-04-16T00:15:03 EET" name="afterMethodMethod" finished-at="2022-04-16T00:15:07 EET" duration-ms="4090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+      </class> <!-- RegistrationTCs.RegisterWithoutFirstName -->
+    </test> <!-- Registration -->
+  </suite> <!-- Suite -->
+</testng-results>

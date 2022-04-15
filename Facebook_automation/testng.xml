@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" guice-stage="DEVELOPMENT">
+  <parameter name="Browser" value="chrome"/>  
+  <test thread-count="5" name="Login">
+    <classes>
+      <class name="LoginTCs.LoginValidEmailValidPass"/>
+	  <class name="LoginTCs.LoginValidEmailInvalidPass"/>
+	  <class name="LoginTCs.LoginInvalidEmailValidPass"/>
+	  <class name="LoginTCs.LoginInvalidEmailInvalidPass"/>
+	  <class name="LoginTCs.LoginBlankEmailBlankPass"/>
+	  <class name="LoginTCs.LoginVaildEmailBlankPass"/>
+	  <class name="LoginTCs.LoginBlankEmailValidPass"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="Registration">
+    <classes>
+ 	  <class name="RegistrationTCs.RegisterWithoutFirstName"/>
+      <class name="RegistrationTCs.CorrectEmailSyntax"/>
+      <class name="RegistrationTCs.RegistrationConfirmationEmail"/>
+      <class name="RegistrationTCs.RegisterWithoutLastName"/>
+      <class name="RegistrationTCs.RegistrationUserAgeMoreThanAYear"/>	
+
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
