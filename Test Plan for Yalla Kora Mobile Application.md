@@ -4,6 +4,7 @@
 ## Scope
 ### Testing of Yall Korra is in the scope of this test plan. The following components and functions would be tested
 <br/>
+
 #### Home Page (الرئيسية) 
 * ensure the user can scroll news left/right and dots will be updated based on news index
 * User can navigate to specific Championships that appears on home page
