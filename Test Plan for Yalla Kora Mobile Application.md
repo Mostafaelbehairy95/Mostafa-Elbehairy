@@ -94,6 +94,7 @@
 * user can click on the results that appears to choose team
 * search result will be deleted if user go to another page 
 
+#
 
 ## Schedule
 The parties agreed to follow the next work plan:
@@ -101,9 +102,15 @@ The parties agreed to follow the next work plan:
 2. Test plan approval
 3. Functional testing and bugs reporting
 
+#
+
 ## Test Plan and Strategy
 The objective of functional testing is to make sure that the whole software product works
 according to the requirements, and no significant errors appear in the application.
+
+#
+
+
 ### Technique
 Execute each use case, use-case flow, or function, using valid and
 invalid data, to verify the following:
@@ -111,17 +118,26 @@ invalid data, to verify the following:
 * The appropriate error or warning messages are displayed when
 invalid data is used.
 
+#
+
+
 ### Entry Criteria
 * The application construction is completed.
 * Necessary devices, instruments, and other equipment are acquired.
 * Test environment is prepared, and the application is released to the
 test environment.
 
+#
+
+
 ### Completion Criteria:
 * All the planned tests are performed.
 * There are no show-stopping errors.
 * All the errors of high priority and severity are fixed.
 * The test results are evaluated, discussed and approved.
+
+#
+
 
 ## Test Procedure
 The main testing types that would be executed:
