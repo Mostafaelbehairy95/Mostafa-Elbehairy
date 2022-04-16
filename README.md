@@ -21,23 +21,23 @@
 
     2.3 install TestNG 
 
-        2.3.1 open https://github.com/cbeust/testng-eclipse/
-        2.3.2 copy repo of latest Release -> https://testng.org/testng-eclipse-update-site
-        2.3.3 open eclipse 
-        2.3.4 select help -> Install new Software
-        2.3.5 click on add
-        2.3.6 Write Name: TestNG and location: URL in step 2.3.2
-        2.3.7 It will give you a review of Items to be installed. Click on Next.
-        2.3.8 If you encounter a Security warning, just click "Install Anyway".
-        2.3.9 Wait for the installation to finish
+        1. open https://github.com/cbeust/testng-eclipse/
+        2. copy repo of latest Release -> https://testng.org/testng-eclipse-update-site
+        3. open eclipse 
+        4. select help -> Install new Software
+        5. click on add
+        6. Write Name: TestNG and location: URL in step 2.3.2
+        7. It will give you a review of Items to be installed. Click on Next.
+        8. If you encounter a Security warning, just click "Install Anyway".
+        9. Wait for the installation to finish
 
     2.4 Import Project inside eclipse
 
     2.5 add dependencies inside pom.xml
 
-        2.5.1 selenium-java dependency
-        2.5.2 testng dependency
-        2.5.3 poi-ooxml dependency for Reading from excel
+        1. selenium-java dependency
+        2. testng dependency
+        3. poi-ooxml dependency for Reading from excel
 
     2.6 Last step you can program by opening testng.xml then click on Run
 
