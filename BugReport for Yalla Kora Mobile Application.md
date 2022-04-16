@@ -54,7 +54,7 @@
 #
 
 ### Test Title:
-* if user opens old news, he will be redirect to new news by clicking on it from notification center 
+* if the old news is opened on app, user will be redirect to new news by clicking on it from notification center 
 ### Reproducible Steps:
 1. open Application
 2. navigate page (اخبار)
