@@ -39,7 +39,7 @@
         2. testng dependency
         3. poi-ooxml dependency for Reading from excel
 
-    2.6 Last step you can program by opening testng.xml then click on Run
+    2.6 Last step you can run program by opening testng.xml then click on Run
 
 
 
