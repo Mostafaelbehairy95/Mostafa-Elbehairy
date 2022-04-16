@@ -84,6 +84,12 @@
 * try to click on notification while internet is closed
 * try to access notification again after reopening internet
 
+###Search
+* user can search on team
+* user can search on national teams
+* user can click on the results that appears to choose team
+* search result will be deleted if user go to another page 
+
 
 
 
