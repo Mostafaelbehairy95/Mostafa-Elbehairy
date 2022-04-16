@@ -47,11 +47,33 @@
 * user can add new favourite team by clicking on plus icon
 
 #### News (اخبار)
-#### Add Favourite Team (اضافة فريقك المفضل)
-#### News (الاخبار)
+* ensure the user can scroll news left/right and dots will be updated based on news index in (اخر الاخبار)
+* ensure the user can scroll news left/right and dots will be updated based on news index in (رياضات اخرى)
+* User will be navigate to another page by clicking on specific news
+* user can share news with his friends
+* user scroll up and down
+* ensure new news loads when user scroll to end of page
+* check the related news is matched with the current news page
+* user can navigate to news that related to current news
+* Ensure news is ordered by date (from newest date to old date)
+
+#### Team page 
+* user can add this team as favourite by clicking on plus icon
+* user can remove this team from favourite list by clicking on star icon
+* user can swipe left and righ to see more catogires like (أخبار, الترتيب, مواعيد المباريات, النتائج, انتقالات, احصائيات, اللاعبيين)
+* when catogry (الاخبار) is opened, user can open any news
+* ensure more news appears when user scroll to end of category (الاخبار) page
+* ensure order of team is correct when user open catogry (الترتيب)
+* user can see all Championships that team is enrolled in it when user open catogry (الترتيب)
+* user can filter by Championships when user open catogry (الترتيب)
+* user can see all Championships that team is enrolled in it when user open catogry (مواعيد المباريات)
+* user can filter by Championships when user open catogry (مواعيد المباريات)
+* user can preview more details when clicking on match which appears in  catogry (مواعيد المباريات)
+* ensure matches are order by nearest date
+
+#### Match page
 
 #### Notifications
-#### Team Page
 
 
 
