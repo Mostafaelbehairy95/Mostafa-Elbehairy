@@ -1,9 +1,9 @@
 # Bug Report
 
 
-## Test Title:
+### Test Title:
 * user can navigate to team page by clicking on team name in page (فرقك) but the message no internet connection appears
-## Reproducible Steps:
+### Reproducible Steps:
 1. open Application
 2. navigate page (فريقك)
 3. add your favourite team
