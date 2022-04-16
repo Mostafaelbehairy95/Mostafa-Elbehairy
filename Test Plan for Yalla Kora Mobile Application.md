@@ -72,8 +72,18 @@
 * ensure matches are order by nearest date
 
 #### Match page
+* Ensure user can access team page by clicking on team image
+* User can scroll horizontal to see more category like (ملخض, التشكيل, دقيقة بدقيقة)
+* user can see teams order when clicking on (ملخص)
+* user can line-up for each team when clicking on (التشكيل)
+* ensure data of match appear when match is live. when user click on (دقيقة بدقيقه)
 
 #### Notifications
+* user will be redirect to news page when clicking on notification in notification center
+* if user open old news, he will be redirect to new news by clicking on it from notification center
+* try to click on notification while internet is closed
+* try to access notification again after reopening internet
+
 
 
 
