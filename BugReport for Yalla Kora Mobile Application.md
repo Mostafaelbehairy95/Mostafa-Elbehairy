@@ -89,9 +89,9 @@
 
 ### Attachments:
 
-1. Screen Record (image): [Click Here](https://drive.google.com/file/d/1JSQpj0gu2QM-dvfmLMzxMTr4NRxuNos5/view?usp=sharing)
-2. Screen Record (image): [Click Here](https://drive.google.com/file/d/1JM7gJY4bDlknicSaHbv3q_eNp3AbLSi0/view?usp=sharing)
-3. Screen Record (image): [Click Here](https://drive.google.com/file/d/1JfgRwI-IeYEbnk3SjDMl1yValADUQXv5/view?usp=sharing)
+1. Screen Shot (image): [Click Here](https://drive.google.com/file/d/1JSQpj0gu2QM-dvfmLMzxMTr4NRxuNos5/view?usp=sharing)
+2. Screen Shot (image): [Click Here](https://drive.google.com/file/d/1JM7gJY4bDlknicSaHbv3q_eNp3AbLSi0/view?usp=sharing)
+3. Screen Shot (image): [Click Here](https://drive.google.com/file/d/1JfgRwI-IeYEbnk3SjDMl1yValADUQXv5/view?usp=sharing)
 
 ### Affected Devices:
 * Samansung Device (A71) Android version 11
@@ -118,8 +118,8 @@
 5. click on any result that appears
 
 ### Attachments:
-1. Screen Record (image): [Click Here](https://drive.google.com/file/d/1JBHqFrixlqit3q4lAT_ZhZB7--sHdwSn/view?usp=sharing)
-2. Screen Record (image): [Click Here](https://drive.google.com/file/d/1J03Hamd9X-HuUpoymUkJiCNhIdBkIQHg/view?usp=sharing)
+1. Screen Shot (image): [Click Here](https://drive.google.com/file/d/1JBHqFrixlqit3q4lAT_ZhZB7--sHdwSn/view?usp=sharing)
+2. Screen Shot (image): [Click Here](https://drive.google.com/file/d/1J03Hamd9X-HuUpoymUkJiCNhIdBkIQHg/view?usp=sharing)
 ### Affected Devices:
 * Samansung Device (A71) Android version 11
 ### Network: 
@@ -157,3 +157,51 @@
 * Medium
 ### Impact:
 * if user click on back button on his device, the delete action doesn't save. that will be saved only if he click on back button in application page.
+
+#
+
+### Test Title:
+* click serval times on matches live icon that's in page (مباريات)
+
+### Reproducible Steps:
+1. open Application
+2. navigate page (مباريات)
+3. click on matches live icon (play icon) many times quickly
+
+### Attachments:
+1. Screen Record (Video): [Click Here](https://drive.google.com/file/d/1JoEkyNztYotJHrJ2Gqt7AFCidqiV6yl_/view?usp=sharing)
+### Affected Devices:
+* Samansung Device (A71) Android version 11
+### Network: 
+* WIFI (Orange DSL)
+* Mobile Data(Vodafone)
+### Severity:
+* Minor
+### Priority:
+* LOW
+### Impact:
+* the page opens many times based on number of click on it 
+
+#
+
+### Test Title:
+* Ensure all element in match page alignment correctly
+
+### Reproducible Steps:
+1. open Application
+2. navigate page (مباريات)
+3. click on any live match
+
+### Attachments:
+1. Screen shot (image): [Click Here](https://drive.google.com/file/d/1Jp7bPZAr9zYp26xLxrq8VYBSQBMfKLh-/view?usp=sharing)
+### Affected Devices:
+* Samansung Device (A71) Android version 11
+### Network: 
+* WIFI (Orange DSL)
+* Mobile Data(Vodafone)
+### Severity:
+* Cosmetic
+### Priority:
+* LOW
+### Impact:
+* the (مباشر) word doesn't alignment correct 
