@@ -1,4 +1,4 @@
-# This four tasks show level of my experience
+# Four tasks show level of my experience
 
 ### First Part is Test plan for Mobile Application (Yalla Kora)
 
