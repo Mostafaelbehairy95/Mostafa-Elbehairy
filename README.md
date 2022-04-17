@@ -103,6 +103,13 @@
 
 3. A short explanation of the provided solution
 
+    3.1. each API i check on 4 thing
+    
+    * Status Code if valid data
+    * status code if invalid data
+    * Compare data with API data in case Status code 200
+    * Compare data with API data in case Status code 404
+
 
 
 
