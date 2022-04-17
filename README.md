@@ -42,6 +42,69 @@
     2.6 Last step you can run program by opening testng.xml then click on Run
 
 
+3. The short explanation for this soulation
+
+    3.1. there are two package for Login and Registration
+
+        Login package has many class for different TCs below
+        1. Login_validEmail_validPass
+        2. Login_validEmail_validPass
+        3. Login_validEmail_validPass
+        4. Login_validEmail_validPass
+        5. Login_validEmail_validPass
+        6. Login_validEmail_validPass
+        7. Login_validEmail_validPass
+
+        Registration package has many class for different TCs below
+        1. Registration_MakeSureFirstName_Mandatory
+        2. Registration_MakeSureSurName_Mandatory
+        3. Registration_ValidEmailSyntax
+        4. Registration_EnsureComfirmEmailMatchEmail
+        5. Registration_UserAgeMoreThanOneYear
+    3.2. How data driven work in this code?
+
+    * the function of dataProvider take name of method as parameter and get record for excel sheet that matchs with methmod name.
+
+    3.3. When you run testng.xml file that will happen
+
+        3.3.1. before excute test method the configuration of webdriver will be initialized and opened the chrome browser
+        3.3.2 before run test method the data driven excute first and get record that match test methond name
+
+### 4th Part is API Automation testing using Rest Assured, Java, and Testng FrameWorkd for Best Buy
+<br/>
+
+1. You can download Project from [HERE](https://github.com/Mostafaelbehairy95/Mostafa-Elbehairy/tree/master/TestAPI)
+
+2. Test cases Proposed For Automation
+
+    2.1. Validate_vaild_reponse_code_For_specifcProducts
+
+    2.2. Validate_invaild_reponse_code_For_specifcProducts
+
+    2.3. Validate_vaild_reponse_data_For_specifcProducts
+    
+    2.4. Validate_invaild_reponse_data_For_specifcProducts
+    
+    2.5. search_About_existing_Product_byName
+    
+    2.6. search_About_Not_existing_Product_byName
+    
+    2.7. search_About_Not_existing_Product_byName
+    
+    2.8. search_About_existing_Product_Validate_Data_byName
+
+    2.9. search_About_Notexisting_Product_Validate_Data_byName
+
+    2.10. Response_code_search_using_Limits
+
+    2.11. CheckValidation_search_using_larg_Limits
+
+    2.12. Response_code_search_using_Limits_invalidinput
+
+3. A short explanation of the provided solution
+
+
+
 
 
 
